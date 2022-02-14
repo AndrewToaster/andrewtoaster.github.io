@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#arrows {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+
+#arrows > * {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#arrows > *:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.hidden {
+    display: none;
+}
